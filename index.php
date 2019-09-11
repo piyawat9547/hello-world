@@ -80,13 +80,6 @@ if (!is_null($events['events']))
 			}
 			
 			
-			
-			
-			
-			
-			
-			
-			
 			//EndCase
 			if (trim(strtoupper($text)) == "HI")
 			{
