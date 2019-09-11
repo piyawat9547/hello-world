@@ -2,8 +2,7 @@
 $access_token = 'xI9+0tDj+YjF7O6w1AvtnX7TVE04VK1Qx/Wtmqr9dBsyMfoplAXJXvtdKDENNYb2T6YhxwQ6qdRd7ld6Nnf/VT6rhFuPKAXakQ2gQazw/rCNKEM0wiI14gf3Uw28rgiWO1686rTXs8odBWT1ch9QKAdB04t89/1O/w1cDnyilFU=';
 $host = "ec2-107-22-211-182.compute-1.amazonaws.com";
 $user = "mmdkvvqziulstc";
-$pass = "a4b36f8fb4126520ace435ec4e20ae55";
-$db = "dcv361109jo6fh";
+$pass = "e10240d71df70c411f5201bc37491e9091491ff276b8d8b66f8e507ea5b7dc22";
 date_default_timezone_set("Asia/Bangkok");
 $date = date("Y-m-d");
 function showtime($time)
@@ -78,8 +77,6 @@ if (!is_null($events['events']))
 				
 				$messages = ['type' => 'text', 'text' => "ราคายางวันนี้ : " . "ข้อมูลจากการยางแห่งประเทศไทย" .  "\n" . "http://www.rubber.co.th/rubber2012/menu5.php"  .  "\n" . "[H] เพื่อดูเมนู"];
 			}
-			
-			
 			
 			//EndCase
 			if (trim(strtoupper($text)) == "a")
